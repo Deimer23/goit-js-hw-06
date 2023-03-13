@@ -8,6 +8,7 @@ function validForm(e) {
     } else {
         console.log(`Email: ${email.value} y Password: ${password.value}`);
     }    
+    e.currentTarget.reset();
 }
 
 
